@@ -1,22 +1,22 @@
 # Tapestation-Gel-Annotater
 Tool to annotate gel images from Tapestation
 
-# INSTALL THESE FIRST
+# Installation Requirements
 - pip install pandas
 - pip install Pillow
 - pip install numpy
 - pip install glob2
 
-# REQUIRES IN FOLDER
+# File Requirements
 - Tapestation Gel PNG images
 - 1 corresponding summary file from of current plate setup
 - 1 corresponding Tapestation sampleTable.csv of current plate setup
 
-# TO DO/QOL
+# To do List
 - Import to excel sheet in grid layout
 - Fix naming - extra PNG in filename
 
-# ERROR TROUBLESHOOTING
+# Error Troubleshooting
 - Number of wells from sampleTable.csv have to match number of purple wells from images combined
 - Number of wells must be the same between images or else it throws error -> check line 229 for np.arange stop value
 - Spelling of names must be the same between sampletable.csv and dict created from matrix file
